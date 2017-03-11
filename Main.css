@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.coverContent{
+    
+    box-sizing: border-box;
+    top: 20px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 80%;
+}
+
+h1{
+    
+    font-family: chewy, sans-serif;
+    color: #278143;
+    font-size: 50px;
+    text-align:center;
+    padding: 20px 20px;
+    text-transform: capitalize;
+}
+
+#cover{
+    position: relative;
+    height: 460px;
+    width: 100%;
+    background: url(Images/cute-coffee-wallpaper-full-hd.jpg) no-repeat bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#mainP{
+    font-family: andada, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #E5742F;
+    position: relative;
+    top:350px;
+    padding: 20px 20px;
+    
+}
+
+.logos{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 450px;
+}
+
+.logos img{
+    display: block;
+    width: 18em;
+    margin: 0 auto;
+}
+
+a{
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: allan, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 40px ;
+    color: #000;
+    background-color: dimgrey;
+}
+
+#footer{
+    position: relative;
+    top: 600px;
+    padding: 15px;
+    color: #000;
+    background-color: dimgray;
+}
+
+#footer p{
+    font-family: andada, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
